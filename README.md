@@ -2,11 +2,36 @@
 
 Covering C# concepts from beginner to advanced.
 
+![csharp photo](http://devstickers.com/assets/img/pro/2p4i.png)
+
+
+
 ## Table of Content
  
 ### Beginner
 
 ### Intermediate
+
+* Classes
+
+* Methods 
+
+* Object Oriented Programming
+
+
+|===================================================================|
+
+## Classes
+
+## Methods
+
+## OOP
+
+
+
+
+
+|===================================================================|
 
 ### Advanced
 
@@ -34,7 +59,6 @@ Covering C# concepts from beginner to advanced.
 
 
 |=================================================================================|
-
 
 ## Generics 
 
