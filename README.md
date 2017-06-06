@@ -19,9 +19,15 @@ Covering C# concepts from beginner to advanced.
 * Object Oriented Programming
 
 
-|===================================================================|
+--- 
 
 ## Classes
+
+
+
+
+
+
 
 ## Methods
 
@@ -31,7 +37,7 @@ Covering C# concepts from beginner to advanced.
 
 
 
-|===================================================================|
+---
 
 ### Advanced
 
@@ -58,7 +64,7 @@ Covering C# concepts from beginner to advanced.
 * What's new in C# 6?
 
 
-|=================================================================================|
+---
 
 ## Generics 
 
@@ -69,7 +75,7 @@ Covering C# concepts from beginner to advanced.
 
 
 
-|=================================================================================|
+---
 
 ## Additional Resources:
 
