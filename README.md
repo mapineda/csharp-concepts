@@ -89,9 +89,9 @@ report.Send();
 * instance : accessible from an object
 
 ```
-var person = new Person();
+var report = new Report();
 
-person.Send();
+report.Send();
 ```
 
 
