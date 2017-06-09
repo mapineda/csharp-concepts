@@ -7,7 +7,7 @@ Covering C# concepts from beginner to advanced.
 ---
 
 ## Table of Content
- 
+
 ### Beginner
 
 ### Intermediate
@@ -18,14 +18,16 @@ Covering C# concepts from beginner to advanced.
 
 * Class Members
 
+* Access Modifiers
+
 * Object Oriented Programming
 
 
---- 
+---
 
 ## Classes
 
-A class can have **fields** and **methods**, which are referred to as **members** of the class. 
+A class can have **fields** and **methods**, which are referred to as **members** of the class.
 
 Declaring a class
 ```
@@ -46,10 +48,10 @@ public class Report
 
 Declare a **method** in the class. Start with an access modifier and a signature of the method. A method can have a return type. In this case, void does not have a return value. It has an identifier and in the parenthesis we can put in any parameters for the method.
 ```
-public class Report 
+public class Report
 {
   public string Name;
-  
+
   public void Send()
   {
      Console.WriteLine(Name + " is sent.");
@@ -70,7 +72,7 @@ We start with the type of the class, give it an identifier and a new operator al
 Report report = new Report();
 ```
 
-A shorter way to write this code is to use *var* , to save us from typing the full name of the class. 
+A shorter way to write this code is to use *var* , to save us from typing the full name of the class.
 
 ```
 var report = new Report();
@@ -110,8 +112,27 @@ public class Report()
 }
 ```
 
-## OOP
+## Access Modifiers
 
+In C# we have 5 Access Modifiers.
+
+* Public
+* Private
+* Protected
+* Internal
+* Protected Internal
+
+Ex:
+
+```
+public class Customer
+{
+  private string Name;
+}
+
+var john = new Customer();
+John.Name; //won't compile
+```
 
 
 
@@ -134,7 +155,7 @@ public class Report()
 
 * Nullable Types
 
-* Dynamic 
+* Dynamic
 
 * Exception Handling
 
@@ -145,7 +166,7 @@ public class Report()
 
 ---
 
-## Generics 
+## Generics
 
 
 
@@ -164,10 +185,8 @@ public class Report()
 
 ### Tutorials
 
-## Contact: 
+## Contact:
 
 * email: marco@marcopineda.com
 
 * twitter: @marcoapineda13
-
-
