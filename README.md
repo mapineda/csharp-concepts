@@ -182,7 +182,11 @@ In C# we have 5 Access Modifiers.
 * Internal
 * Protected Internal
 
+A way to control access to class or its members.
+
 Ex:
+
+Here, we cannot access the **Name** field outside of the scope because the **Name** field is set to *private*.
 
 ```
 public class Customer
@@ -194,7 +198,21 @@ var john = new Customer();
 John.Name; //won't compile
 ```
 
+## Object Oriented Programming
 
+* Encapsulation/Information Hiding
+
+* Inheritance
+
+* Polymorphism
+
+### Encapsulation (in practice)
+
+* Define fields as private
+
+* Provide getter/setter method as public
+
+Ex:
 
 
 ---
