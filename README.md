@@ -24,6 +24,8 @@ Covering C# concepts from beginner to advanced.
 
 * Methods
 
+* Access Modifiers
+
 * Object Oriented Programming
 
 
@@ -170,7 +172,29 @@ public class Customer
 ## Object Initializer
 
 
+=======
+## Access Modifiers
+>>>>>>> 257ca9a15426ab06f3ac32a4a75c3180955a0231
 
+In C# we have 5 Access Modifiers.
+
+* Public
+* Private
+* Protected
+* Internal
+* Protected Internal
+
+Ex:
+
+```
+public class Customer
+{
+  private string Name;
+}
+
+var john = new Customer();
+John.Name; //won't compile
+```
 
 
 
