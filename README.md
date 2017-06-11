@@ -7,7 +7,7 @@ Covering C# concepts from beginner to advanced.
 ---
 
 ## Table of Content
- 
+
 ### Beginner
 
 ### Intermediate
@@ -18,14 +18,20 @@ Covering C# concepts from beginner to advanced.
 
 * Class Members
 
+* Constructors
+
+* Object Initializer
+
+* Methods
+
 * Object Oriented Programming
 
 
---- 
+---
 
 ## Classes
 
-A class can have **fields** and **methods**, which are referred to as **members** of the class. 
+A class can have **fields** and **methods**, which are referred to as **members** of the class.
 
 Declaring a class
 ```
@@ -46,10 +52,10 @@ public class Report
 
 Declare a **method** in the class. Start with an access modifier and a signature of the method. A method can have a return type. In this case, void does not have a return value. It has an identifier and in the parenthesis we can put in any parameters for the method.
 ```
-public class Report 
+public class Report
 {
   public string Name;
-  
+
   public void Send()
   {
      Console.WriteLine(Name + " is sent.");
@@ -64,13 +70,13 @@ Objects are instances of a class.
 
 ### Creating Objects Ex:
 
-We start with the type of the class, give it an identifier and a new operator along with the name of the class to initialize an insatance of that class.
+We start with the type of the class, give it an identifier and a new operator along with the name of the class to initialize an instance of that class.
 
 ```
 Report report = new Report();
 ```
 
-A shorter way to write this code is to use *var* , to save us from typing the full name of the class. 
+A shorter way to write this code is to use *var* , to save us from typing the full name of the class.
 
 ```
 var report = new Report();
@@ -110,7 +116,60 @@ public class Report()
 }
 ```
 
-## OOP
+#### Section Tutorial:
+
+
+## Constructors
+
+A constructor is a method that is called when an instance of a class is created.
+
+### Why?
+
+A constructor puts an object into an earlier state.
+
+### How?
+```
+public class Customer
+{
+  public Customer()
+  {
+  }
+
+}
+```
+
+Constructors do not have a return type.
+
+Constructor initializes fields of the class to the default values.
+
+```
+int = 0
+bool = false;
+string = null;
+object = null
+```
+
+Ex:
+
+In this example we have another constructor. with a parameter. we get the name of the customer and we have a name field.
+
+Note the use of the *this* keyword.
+```
+public class Customer
+{
+  public string Name;
+
+  public Customer(string name)
+  {
+    this.Name = name;
+  }
+
+}
+
+```
+## Object Initializer
+
+
 
 
 
@@ -134,7 +193,7 @@ public class Report()
 
 * Nullable Types
 
-* Dynamic 
+* Dynamic
 
 * Exception Handling
 
@@ -145,7 +204,7 @@ public class Report()
 
 ---
 
-## Generics 
+## Generics
 
 
 
@@ -164,10 +223,8 @@ public class Report()
 
 ### Tutorials
 
-## Contact: 
+## Contact:
 
 * email: marco@marcopineda.com
 
 * twitter: @marcoapineda13
-
-
