@@ -172,9 +172,7 @@ public class Customer
 ## Object Initializer
 
 
-=======
 ## Access Modifiers
->>>>>>> 257ca9a15426ab06f3ac32a4a75c3180955a0231
 
 In C# we have 5 Access Modifiers.
 
