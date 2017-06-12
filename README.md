@@ -213,8 +213,102 @@ John.Name; //won't compile
 * Provide getter/setter method as public
 
 Ex:
+ See access modifier encapsulation tutorial under folders tutorials > Intermediate.
 
 
+##Properties
+
+A class member that encapsulates a getter / setter for accessing a field.
+
+### Why?
+Creating a getter / setter with less code.
+
+Ex:
+
+```
+public class Person
+{
+  private DateTime _birthdate;
+
+  public DateTime Birthdate
+  {
+    get {return _birthdate;}
+    set {_birthdate = value; }
+  }
+}
+```
+
+###Auto Implemented Property
+
+There is no field
+
+```
+public class Person
+{
+
+  public DateTime Birthdate {get; set;}
+}
+```
+
+## Indexers
+
+A way to access elements in a class that represents a list of values.
+
+Ex:
+
+```
+var array = new int[5];
+array[0] = 1;
+
+var list  = new List<int>();
+list[0] = 1
+
+
+```
+
+
+##Inheritance
+
+Is-a relationship.
+
+Example: Mike is a Person.
+
+## Composition
+
+A kind of relationship between two classes that allow one to contain the other. Has-a relationship.
+
+Example: A car has an engine.
+
+Benefits:
+
+* Code re-use
+* Flexibility
+* A means to loose-coupling
+
+Example:
+
+* DbMigrator class requires logging.
+* Installer requires logging.
+
+We can create a logger class that does both.
+
+Syntax:
+
+```
+public class Installer
+{
+  private Logger _logger;
+
+  public Installer(Logger logger)
+  {
+    _logger = logger;
+  }
+
+}
+```
+
+
+Tutorial found inside Intermediate folder.
 ---
 
 ### Advanced
