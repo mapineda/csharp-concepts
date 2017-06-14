@@ -306,9 +306,35 @@ public class Installer
 
 }
 ```
-
-
 Tutorial found inside Intermediate folder.
+
+## Interfaces
+
+* What is an Interface?
+* How to declare and implement Interfaces
+* Interfaces and testability
+* Interfaces and extensibility
+
+
+### What?
+A language construct that is similar to a class (in terms of syntax, but is fundamentally different)
+
+ex:
+```
+public interface ITaxCalculator
+{
+  int Calculate();
+}
+```
+### Why?
+
+Interfaces are used to build loosely coupled applications.
+
+
+See tutorial.
+
+
+
 ---
 
 ### Advanced
